@@ -5,7 +5,7 @@ These are code snippets used in the **Nebula** project, designed to enhance and 
 
 ---
 
-### 📘 [OneAll Auto Config Setup](https://github.com/MightyX3N/Nebula/blob/main/OneAll%20Auto%20Config%20Setup/code_snippet.txt)
+### 🔐 [OneAll Auto Config Setup](https://github.com/MightyX3N/Nebula/blob/main/OneAll%20Auto%20Config%20Setup/code_snippet.txt)
 
 **Description**:  
 This snippet automates the initial setup of the **OneAll Social Login** plugin in WordPress by injecting API credentials and default settings directly into the configuration file. The providers (currently set to **Discord**, **GitHub**, and **Steam**) are manually defined in the code snippet like so:
@@ -26,7 +26,7 @@ An ideal improvement would be to make these providers **selectable via a form**,
 
 ---
 
-### 📘 [Bricks License Auto Config](https://github.com/MightyX3N/Nebula/blob/main/Bricks%20License%20Auto%20Config/code_snippet.txt)
+### 🔑 [Bricks License Auto Config](https://github.com/MightyX3N/Nebula/blob/main/Bricks%20License%20Auto%20Config/code_snippet.txt)
 
 **Description**:  
 This snippet automatically sets the **Bricks Builder license key** in a WordPress installation. It's especially useful for theme development environments or staging setups where the license needs to be applied quickly and consistently via a form on the network admin dashboard.  
@@ -35,7 +35,7 @@ This removes the need for manual license entry, ensuring that all subsites are c
 
 ---
 
-### 📘 [Discord Widget Auto Dark Mode](https://github.com/MightyX3N/Nebula/blob/main/Discord%20Widget%20Dark%20Mode/code_snippet.txt)
+### 🌓 [Discord Widget Auto Dark Mode](https://github.com/MightyX3N/Nebula/blob/main/Discord%20Widget%20Dark%20Mode/code_snippet.txt)
 
 **Description**:  
 This snippet automatically enables **dark mode** for the **Discord Widget** on your WordPress site by utilizing the **Dracula Dark Mode** plugin. It leverages the plugin’s functionality to switch the widget's theme to dark mode, ensuring a seamless visual experience for users in low-light conditions.
