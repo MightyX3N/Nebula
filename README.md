@@ -44,10 +44,9 @@ Please note that there may be a very tiny delay between the light and dark mode 
 
 The plugin used for this functionality is **[Dracula Dark Mode](https://wordpress.org/plugins/dracula-dark-mode/)**, which enhances your site with a dark theme option.
 
+You can see the feature in action on [**GoPluvia.com**](https://gopluvia.com) when scrolling down the page.
 
-
-
-
+---
 
 ## 📄 License – Nebula Project by MightyX3N
 
