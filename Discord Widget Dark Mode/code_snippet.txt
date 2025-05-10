@@ -1,1 +1,38 @@
-soon
+function custom_discord_widget_theme() {
+    ?>
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            var discordIframe = document.querySelector('iframe[src*="discord.com/widget"]');
+            
+            if (!discordIframe) return;
+
+            function updateDiscordWidgetTheme() {
+                var htmlElement = document.querySelector('html[lang="en-US"][data-dracula-scheme="dark"]');
+                
+                if (htmlElement) {
+                    // If dark mode is enabled, update the iframe src to use the dark theme
+                    if (!discordIframe.src.includes('theme=dark')) {
+                        discordIframe.src = discordIframe.src.replace('theme=light', 'theme=dark');
+                    }
+                } else {
+                    // If no dark mode, set the iframe src to use the light theme
+                    if (!discordIframe.src.includes('theme=light')) {
+                        discordIframe.src = discordIframe.src.replace('theme=dark', 'theme=light');
+                    }
+                }
+            }
+
+            // Initial check on page load
+            updateDiscordWidgetTheme();
+
+            // Use MutationObserver to watch for changes in the theme
+            const observer = new MutationObserver(updateDiscordWidgetTheme);
+            observer.observe(document.documentElement, {
+                attributes: true, 
+                attributeFilter: ['data-dracula-scheme']
+            });
+        });
+    </script>
+    <?php
+}
+add_action('wp_footer', 'custom_discord_widget_theme');
