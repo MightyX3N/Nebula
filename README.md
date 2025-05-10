@@ -33,6 +33,19 @@ This snippet automatically sets the **Bricks Builder license key** in a WordPres
 This removes the need for manual license entry, ensuring that all subsites are correctly licensed and ready for development.
 
 
+---
+
+### 📘 [Discord Widget Auto Dark Mode](https://github.com/MightyX3N/Nebula/blob/main/Discord%20Widget%20Dark%20Mode/code_snippet.txt)
+
+**Description**:  
+This snippet automatically enables **dark mode** for the **Discord Widget** on your WordPress site by utilizing the **Dracula Dark Mode** plugin. It leverages the plugin’s functionality to switch the widget's theme to dark mode, ensuring a seamless visual experience for users in low-light conditions.
+
+Please note that there may be a very tiny delay between the light and dark mode switching. This delay is due to the way the theme transition occurs but is generally imperceptible for most users.
+
+The plugin used for this functionality is **[Dracula Dark Mode](https://wordpress.org/plugins/dracula-dark-mode/)**, which enhances your site with a dark theme option.
+
+
+
 
 
 
