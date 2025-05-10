@@ -50,8 +50,6 @@ You can see the feature in action on [**GoPluvia.com**](https://gopluvia.com) wh
 
 ## 📄 License – Nebula Project by MightyX3N
 
-Copyright © 2025 **MightyX3N**
-
 The **Nebula** project is licensed under a **custom non-commercial license** with the following terms:
 
 ### ✅ You Are Allowed To
