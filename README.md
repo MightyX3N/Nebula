@@ -1,3 +1,41 @@
+
+## 🔗 Included Code Snippets
+
+These are code snippets used in the **Nebula** project, designed to enhance and automate parts of WordPress configuration:
+
+---
+
+### 📘 [OneAll Auto Config Setup](https://github.com/MightyX3N/Nebula/blob/main/OneAll%20Auto%20Config%20Setup/code_snippet.txt)
+
+**Description**:  
+This snippet automates the initial setup of the **OneAll Social Login** plugin in WordPress by injecting API credentials and default settings directly into the configuration file. The providers (currently set to **Discord**, **GitHub**, and **Steam**) are manually defined in the code snippet like so:
+
+```php
+if (!isset($current_settings['providers']) || !is_array($current_settings['providers'])) {
+    $current_settings['providers'] = [
+        'discord' => 1,
+        'github'  => 1,
+        'steam'   => 1,
+    ];
+    $changed = true;
+}
+```
+
+Currently, these providers can only be set manually in the config file and will only apply when a new subsite is created — they **cannot** be automatically updated once set.  
+An ideal improvement would be to make these providers **selectable via a form**, so changes could be automatically applied across old and new subsites. This would make the code more flexible and easier to maintain.
+
+---
+
+### 📘 [Bricks License Auto Config](https://github.com/MightyX3N/Nebula/blob/main/Bricks%20License%20Auto%20Config/code_snippet.txt)
+
+**Description**:  
+This snippet automatically sets the **Bricks Builder license key** in a WordPress installation. It's especially useful for theme development environments or staging setups where the license needs to be applied quickly and consistently via a form on the network admin dashboard.  
+This removes the need for manual license entry, ensuring that all subsites are correctly licensed and ready for development.
+
+
+
+
+
 ## 📄 License – Nebula Project by MightyX3N
 
 Copyright © 2025 **MightyX3N**
