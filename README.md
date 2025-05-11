@@ -68,4 +68,4 @@ The **Nebula** project is licensed under a **custom non-commercial license** wit
 
 ---
 
-📬 **For permission requests or contribution discussions**, please contact: _[insert contact info here]_
+📬 **For permission requests or contribution discussions**, please contact: MightyX3N
