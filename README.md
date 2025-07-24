@@ -46,6 +46,34 @@ The plugin used for this functionality is **[Dracula Dark Mode](https://wordpres
 
 You can see the feature in action on [**GoPluvia.com**](https://gopluvia.com) when scrolling down the page. (currently removed migh return later)
 
+### 🛡️ [Force Google UDM=14](https://github.com/MightyX3N/Nebula/tree/main/Force%20Google%20UDM%3D14) – Chrome & Firefox Compatible Extension
+
+**Description**:  
+This extension automatically appends `udm=14` to Google Search URLs, restoring the **classic search results layout** by skipping AI-generated answers, “Perspectives,” and other clutter. It provides a cleaner, faster search experience — closer to what Google used to be.
+
+🧠 Why `udm=14`?  
+Google uses this internal parameter to serve a simpler search UI with fewer experimental elements. This extension forces that layout by modifying search URLs on the fly.
+
+📦 Features:
+- Lightweight and runs automatically in the background
+- No tracking or analytics
+- Compatible with both single-site and multisite setups
+
+🧩 **Installation:**
+- **Firefox**: (soon) 
+  → Install directly from the Mozilla Add-ons site:  
+  [🦊 Force Google UDM=14 – Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/force-google-udm-14/)
+
+- **Chrome**:  
+  → Visit the [GitHub source folder](https://github.com/MightyX3N/Nebula/tree/main/Force%20Google%20UDM%3D14)  
+  → Download each file manually  
+  → Zip them together  
+  → Load the ZIP as an unpacked extension via `chrome://extensions` (enable Developer Mode)
+
+⚠️ Notes:
+- The Chrome version uses a content script for compatibility with Manifest V3 restrictions.
+- Firefox uses a `webRequest` redirect method and requires signing (already handled via AMO).
+
 ---
 
 ## 📄 License – Nebula Project by MightyX3N
