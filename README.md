@@ -60,7 +60,7 @@ Google uses this internal parameter to serve a simpler search UI with fewer expe
 - Compatible with both single-site and multisite setups
 
 🧩 **Installation:**
-- **Firefox**: (soon) 
+- **Firefox**:
   → Install directly from the Mozilla Add-ons site:  
   [🦊 Force Google UDM=14 – Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/force-google-udm-14/)
 
