@@ -46,6 +46,8 @@ The plugin used for this functionality is **[Dracula Dark Mode](https://wordpres
 
 You can see the feature in action on [**GoPluvia.com**](https://gopluvia.com) when scrolling down the page. (currently removed migh return later)
 
+---
+
 ### 🛡️ [Force Google UDM=14](https://github.com/MightyX3N/Nebula/tree/main/Force%20Google%20UDM%3D14) – Chrome & Firefox Compatible Extension
 
 **Description**:  
